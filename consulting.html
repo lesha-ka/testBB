@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/png"><link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+    <!--link(rel="stylesheet" href="./css/fonts.css")-->
+    <link rel="stylesheet" href="./css/newStyle.css"><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Beribit</title>
+    <script src="https://api-maps.yandex.ru/2.1.45/?lang=ru_RU"></script>
+  </head>
+  <body class="body">
+    <!--include ../components/sections/header-->
+    <header class="n-header">
+      <div class="container"><a class="n-header__main-link" href="/"><img src="./img/main/logo-new.svg"><img class="logo-dark" src="./img/main/logoDark-new.svg"><a class="n-header__reg-btn n-header__reg-btn--tablet js-popupOpen" href="#" data-popup="registration2">Регистрация</a></a>
+        <div class="n-burger-body">
+          <nav>
+            <ul>
+              <li><a href="market.html">Биржа</a></li>
+              <li><a href="p2p-main.html">P2P</a></li>
+              <li><a href="manual.html">Руководство</a></li>
+              <li><a href="info.html">Информация</a></li>
+            </ul>
+          </nav><a class="n-header__auth-btn" href="login.html">Войти</a><a class="n-header__reg-btn" href="create-account.html">Регистрация</a>
+          <div class="n-header__theme-wrapper">
+            <p>Тема</p>
+            <button class="n-header__theme-toggler">
+              <div class="light-icon"><img src="./img/sun.svg"></div>
+              <div class="dark-icon"><img src="./img/moon.svg"></div>
+            </button>
+          </div>
+          <svg class="n-burger-btn close-burger" width="32" height="32" role="img">
+            <use xlink:href="./img/icons/icons.svg#closeBurger"></use>
+          </svg>
+        </div><a class="n-header_auth-user" href="#"></a>
+        <div class="n-burger-btn"></div>
+      </div>
+    </header>
+    <main class="n-main consulting">
+      <section class="consulting-descriptor">
+        <div class="container"> 
+          <h1 class="consulting-descriptor__title">Ваш надежный помощник для обмена криптовалют и международных платежей</h1><a class="consulting-descriptor__btn btn btn--orange" href="https://t.me/beribit_manager" target="_blank"> 
+            <p>Связаться</p>
+            <svg>
+              <use xlink:href="./img/icons/icons.svg#arrow"></use>
+            </svg></a>
+        </div>
+      </section>
+      <section class="consulting-advantages"> 
+        <div class="container"> 
+          <ul class="consulting-advantages__list"> 
+            <li class="consulting-advantages__item">
+              <div class="consulting-advantages__img"> <img src="./img/consulting/advantage1.svg" alt=""></div>
+              <div class="consulting-advantages__text">Объясняем простыми словами сложные вещи</div>
+            </li>
+            <li class="consulting-advantages__item">
+              <div class="consulting-advantages__img"> <img src="./img/consulting/advantage2.svg" alt=""></div>
+              <div class="consulting-advantages__text">Честно рассказываем о возможностях и рисках</div>
+            </li>
+            <li class="consulting-advantages__item">
+              <div class="consulting-advantages__img"> <img src="./img/consulting/advantage3.svg" alt=""></div>
+              <div class="consulting-advantages__text">Заинтересованы в успехе вашего бизнеса</div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="consulting-partnership">
+        <div class="container"> 
+          <div class="consulting__title"> 
+            <h2>Мы открыты для сотрудничества</h2><span>ПАРТНЕРСТВО</span>
+          </div>
+          <div class="consulting__text">Главный принцип нашей стратегии&nbsp;&mdash; установление долгосрочных, партнерских отношений.</div>
+          <div class="consulting__text">Мы&nbsp;стремимся разработать и&nbsp;предложить самые выгодные условия сотрудничества криптовалютным сообществам, специалистам отрасли и&nbsp;предприятиям из&nbsp;различных секторов экономики.</div>
+        </div>
+      </section>
+      <section class="consulting-services">
+        <div class="container"> 
+          <div class="consulting__title"> 
+            <h2>Услуги консалтинга</h2><span>КОНСАЛТИНГ</span>
+          </div>
+          <div class="consulting-services__slider swiper js-consultingSlider">
+            <ul class="consulting-services__list swiper-wrapper">
+              <li class="consulting-services__item swiper-slide">
+                <div class="consulting-services__img"> <img src="./img/consulting/service1.svg" alt=""></div>
+                <div class="consulting-services__text">Услуги криптопроцессинга платежей</div>
+              </li>
+              <li class="consulting-services__item swiper-slide">
+                <div class="consulting-services__img"> <img src="./img/consulting/service2.svg" alt=""></div>
+                <div class="consulting-services__text">Трансграничные&nbsp;<br>переводы </div>
+              </li>
+              <li class="consulting-services__item swiper-slide">
+                <div class="consulting-services__img"> <img src="./img/consulting/service3.svg" alt=""></div>
+                <div class="consulting-services__text">Оплата инвойсов и&nbsp;контрактов</div>
+              </li>
+              <li class="consulting-services__item swiper-slide">
+                <div class="consulting-services__img"> <img src="./img/consulting/service4.svg" alt=""></div>
+                <div class="consulting-services__text">Проведение платежей через криптовалюты</div>
+              </li>
+              <li class="consulting-services__item swiper-slide">
+                <div class="consulting-services__img"> <img src="./img/consulting/service5.svg" alt=""></div>
+                <div class="consulting-services__text">Консультируем по самым острым вопросам</div>
+              </li>
+              <li class="consulting-services__item swiper-slide">
+                <div class="consulting-services__img"> <img src="./img/consulting/service6.svg" alt=""></div>
+                <div class="consulting-services__text">Круглосуточная <br>поддержка</div>
+              </li>
+              <li class="consulting-services__item swiper-slide">
+                <div class="consulting-services__img"> <img src="./img/consulting/service7.svg" alt=""></div>
+                <div class="consulting-services__text">Широкая <br>партнёрская сеть</div>
+              </li>
+            </ul>
+            <div class="consulting-services__arrows"> 
+              <div class="consulting-services__prev swiper-button-prev"></div>
+              <div class="consulting-services__next swiper-button-next"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="consulting-application">
+        <div class="container"> 
+          <div class="consulting-application__inner"> 
+            <div class="consulting__title"> 
+              <h2>Оставьте заявку</h2>
+            </div>
+            <div class="consulting__text">Оставьте свои контактные данные. Мы&nbsp;свяжемся с&nbsp;Вами, ответим на&nbsp;все вопросы и&nbsp;подберем самое оптимальное решение!</div>
+            <form class="consulting-application__form js-form" method="POST" action="">
+              <div class="consulting-application__field">
+                <div class="consulting-application__label">Ваше имя:   </div>
+                <input class="consulting-application__input js-input" type="text" name="name" placeholder="Иван Иванович">
+                <div class="consulting-application__error">Введите Ваше имя</div>
+              </div>
+              <div class="consulting-application__field">
+                <div class="consulting-application__label">Ваш номер телефона:</div>
+                <input class="consulting-application__input js-input js-inputPhone" type="text" name="phone" placeholder="+7 (___) ___-__-__">
+                <div class="consulting-application__error">Введите Ваш номер</div>
+              </div>
+              <button class="consulting-application__btn btn btn--orange" type="submit">Отправить</button>
+            </form>
+            <div class="consulting-application__text">Нажимая на кнопку Вы соглашетесь с условиями обработки данных</div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="n-footer">
+      <div class="container">
+        <div class="n-footer-row">
+          <div class="n-footer__col">
+            <h3 class="n-footer-title">Перейди на новый уровень торговли криптовалютой.</h3><a class="n-footer-btn" href="#!">Создать аккаунт  </a><a class="n-footer-btn n-footer-btn--login" href="#!">Войти  </a>
+          </div>
+          <div class="n-footer__col">
+            <p class="n-footer__col_title accordion">Возможности</p>
+            <ul class="n-footer__col-list">
+              <li><a href="">Поддержка 24/7</a></li>
+              <li><a href="">Регистрация</a></li>
+              <li><a href="">Пополнение баланса</a></li>
+              <li><a href="">Вывод баланса</a></li>
+              <li><a href="">Пополнение криптовалюты</a></li>
+              <li><a href="">Вывод криптовалюты</a></li>
+              <li><a href="">Код Beribit</a></li>
+              <li><a href="">Верификация</a></li>
+              <li><a href="">Торговые операции</a></li>
+              <li><a href="">Купить Bitcoin</a></li>
+              <li><a href="">Купить Ethereum</a></li>
+              <li><a href="">Купить USDT</a></li>
+            </ul>
+          </div>
+          <div class="n-footer__col">
+            <p class="n-footer__col_title accordion">Контакты</p>
+            <ul class="n-footer__col-list">
+              <li><a href="">Центр поддержки</a></li>
+              <li><a href="">Оставить запрос</a></li>
+              <li><a href="">Официальный чат</a></li>
+              <li><a href="">Анонсы</a></li>
+              <li><a href="">Поддержка Telegram</a></li>
+            </ul>
+            <p class="n-footer__col_title accordion">Юридическая информация</p>
+            <ul class="n-footer__col-list">
+              <li><a href="mailto:info@beribit.com">info@beribit.com</a></li>
+              <li><a href="mailto:support@beribit.com">support@beribit.com</a></li>
+            </ul>
+          </div>
+          <div class="n-footer__col">
+            <p class="n-footer__col_title accordion">Условия<br> пользования</p>
+            <ul class="n-footer__col-list">
+              <li><a href="">О нас</a></li>
+              <li><a href="">Комиссии</a></li>
+              <li><a href="">Персональный менеджер</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="n-footer-row n-footer-row--border">
+          <div class="n-footer-logo"> <img src="./img/main/logo-footer.svg"><img class="dark" src="./img/main/logo-footerDark.svg"></div>
+          <div class="n-footer-social"> <a class="n-footer-social__link" href="#!"><img src="./img/main/telegram.svg" alt=""><img class="dark" src="./img/main/telegramDark.svg"></a><a class="n-footer-social__link" href="#!"><img src="./img/main/youtube.svg" alt=""><img class="dark" src="./img/main/youtubeDark.svg"></a><a class="n-footer-social__link" href="#!"><img src="./img/main/vcru.svg" alt=""><img class="dark" src="./img/main/vcruDark.svg"></a></div>
+          <div class="n-footer-docs"> <a class="n-footer-docs__link" href="#!">Пользовательское соглашение</a><a class="n-footer-docs__link" href="#!">Политика Cookie</a><a class="n-footer-docs__link" href="#!">Реферальная программа</a></div>
+          <div class="n-footer-copyright">Copyright © 2021-2023 Beribit Global Ltd. </div>
+        </div>
+      </div>
+    </footer>
+    <section class="n-popup js-popup" id="registration">
+      <div class="n-popup__inner"> 
+        <div class="n-popup__close js-popupClose"> </div>
+        <div class="n-popup__content">
+          <div class="n-popup__title">Регистрация</div>
+          <form class="n-popup__form">
+            <div class="n-popup__form-title">E-mail</div>
+            <input class="js-inputRequired n-popup__form-input" type="text" required>
+            <div class="n-popup__form-title">Пароль <span class="n-popup__form-title--hint "></span>
+              <div class="n-popup__form-hint">Пароль должен быть длиной не менее 6 символов, содержать в себе, как минимум: одну цифру, один символ в нижнем и верхнем регистре и один не буквенно-цифровой символ.</div>
+            </div>
+            <div class="n-popup__form-wrapper">
+              <div class="n-popup__form-eye js-passwordShow"></div>
+              <input class="js-inputRequired n-popup__form-input" type="password" required>
+            </div>
+            <div class="n-popup__form-title">Подтвердите пароль</div>
+            <div class="n-popup__form-wrapper">
+              <div class="n-popup__form-eye js-passwordShow"></div>
+              <input class="js-inputRequired n-popup__form-input" type="password" required>
+            </div>
+            <div class="n-popup__form-title">Реферальный код</div>
+            <input class="js-inputRequired n-popup__form-input" type="text" required>
+            <div class="n-profile-table__checkbox">
+              <input class="js-settingInput" type="text" hidden name="1" value="0">
+              <div class="n-profile-table__label js-settingLabel">Я согласен с <a href="#" target="_blank">Условиями обслуживания, Политикой конфиденциальности и возврата средств</a></div>
+            </div>
+            <div class="n-profile-table__checkbox">
+              <input class="js-settingInput" type="text" hidden name="1" value="0">
+              <div class="n-profile-table__label js-settingLabel">Я не являюсь гражданином либо резидентом США</div>
+            </div>
+            <div class="n-profile-table__checkbox">
+              <input class="js-settingInput" type="text" hidden name="1" value="0">
+              <div class="n-profile-table__label js-settingLabel">Я согласен получать e-mail рассылку</div>
+            </div>
+            <div class="n-popup__btn js-popupClose">Регистрация</div>
+            <div class="n-popup__subtext">Уже есть аккаунт? <span class="js-popupOpen" data-popup="login">Авторизация<span></div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <section class="n-popup js-popup" id="registration2">
+      <div class="n-popup__inner">
+        <div class="n-popup__close js-popupClose"> </div>
+        <div class="n-popup__content">
+          <div class="n-popup__title">Регистрация</div>
+          <form class="n-popup__form">
+            <div class="n-popup__form-title">Выберите юрисдикцию</div>
+            <div class="select n-popup__form-select control-select-group js-selectJurisdiction">
+              <button class="select-toggle" type="button" name="country" value="RU" data-select="toggle" data-index="0"><img class="n-popup__form-select-img" src="./img/RU.svg"> Russia (Россия)</button>
+              <div class="select-dropdown">
+                <ul class="select-options">
+                  <li class="select-option" data-select="option" data-value="RU" data-index="0"><img class="n-popup__form-select-img" src="./img/RU.svg"> Russia (Россия)</li>
+                  <li class="select-option" data-select="option" data-value="RU" data-index="0"><img class="n-popup__form-select-img" src="./img/armenia.svg"> Armenia (Армения)</li>
+                  <li class="select-option" data-select="option" data-value="RU" data-index="0"><img class="n-popup__form-select-img" src="./img/belarus.svg"> Belarus (Беларусь)</li>
+                  <li class="select-option" data-select="option" data-value="RU" data-index="0"><img class="n-popup__form-select-img" src="./img/kazakhstan.svg"> Kazakhstan (Казахстан)</li>
+                  <li class="select-option" data-select="option" data-value="UZB" data-index="1"><img class="n-popup__form-select-img" src="./img/OZ.svg"> Uzbekistan (Узбекистан)</li>
+                </ul>
+              </div>
+            </div>
+            <div class="n-popup__form-title">E-mail</div>
+            <input class="js-inputRequired n-popup__form-input" type="text" requнуired>
+            <div class="n-popup__form-title">Реферальный код </div>
+            <input class="js-inputRequired n-popup__form-input" type="text" required>
+            <div class="n-popup__form-title">Пароль <span class="n-popup__form-title--hint "></span>
+              <div class="n-popup__form-hint">Пароль должен быть длиной не менее 6 символов, содержать в себе, как минимум: одну цифру, один символ в нижнем и верхнем регистре и один не буквенно-цифровой символ.</div>
+            </div>
+            <div class="n-popup__form-wrapper">
+              <div class="n-popup__form-eye js-passwordShow"></div>
+              <input class="js-inputRequired n-popup__form-input" type="password" required>
+            </div>
+            <div class="n-popup__form-title">Подтвердите пароль</div>
+            <div class="n-popup__form-wrapper">
+              <div class="n-popup__form-eye js-passwordShow"></div>
+              <input class="js-inputRequired n-popup__form-input" type="password" required>
+            </div>
+            <div class="n-profile-table__checkbox">
+              <input class="js-settingInput" type="text" hidden name="1" value="0">
+              <div class="n-profile-table__label js-settingLabel">Я согласен с <a href="#" target="_blank">Условиями обслуживания, Политикой конфиденциальности и возврата средств</a></div>
+            </div>
+            <div class="n-profile-table__checkbox">
+              <input class="js-settingInput" type="text" hidden name="1" value="0">
+              <div class="n-profile-table__label js-settingLabel">Я не являюсь гражданином либо резидентом США</div>
+            </div>
+            <div class="n-profile-table__checkbox">
+              <input class="js-settingInput" type="text" hidden name="1" value="0">
+              <div class="n-profile-table__label js-settingLabel">Я согласен получать e-mail рассылку</div>
+            </div>
+            <div class="g-recaptcha n-popup__form-recaptcha" data-sitekey="КЛЮЧ_САЙТА"></div>
+            <div class="n-popup__btn js-popupClose">Регистрация</div>
+            <div class="n-popup__subtext">Уже есть аккаунт? <span class="js-popupOpen" data-popup="login">Авторизация<span></div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <section class="n-popup js-popup" id="login">
+      <div class="n-popup__inner"> 
+        <div class="n-popup__close js-popupClose"> </div>
+        <div class="n-popup__content">
+          <div class="n-popup__title">Авторизация</div>
+          <form class="n-popup__form">
+            <div class="n-popup__form-title">E-mail</div>
+            <input class="js-inputRequired n-popup__form-input" type="text" required>
+            <div class="n-popup__form-title">Пароль <span class="n-popup__form-title--hint "></span>
+              <div class="n-popup__form-hint">Пароль должен быть длиной не менее 6 символов, содержать в себе, как минимум: одну цифру, один символ в нижнем и верхнем регистре и один не буквенно-цифровой символ.</div>
+            </div>
+            <div class="n-popup__form-wrapper">
+              <div class="n-popup__form-eye js-passwordShow"></div>
+              <input class="js-inputRequired n-popup__form-input" type="password" required>
+            </div>
+            <div class="n-popup__form-label n-popup__form-label--blue js-popupOpen" data-popup="reset-pass">Восстановление пароля</div>
+            <div class="n-popup__btn js-popupClose">Войти</div>
+            <div class="n-popup__subtext">Ещё не с нами? <span class="js-popupOpen" data-popup="registration">Регистрация<span></div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <section class="n-popup js-popup" id="reset-pass"> 
+      <div class="n-popup__inner"> 
+        <div class="n-popup__close js-popupClose"> </div>
+        <div class="n-popup__content">
+          <div class="n-popup__title n-popup__title--phone">Восстановление</div>
+          <form class="n-popup__form">
+            <div class="n-popup__form-title">E-mail</div>
+            <input class="js-inputRequired n-popup__form-input" type="text" required>
+            <div class="n-popup__form-label">*Ссылка на восстановление будет отправлена на почту</div>
+            <div class="n-popup__btn js-popupClose">Восстановить</div>
+            <div class="n-popup__subtext">Вспомнили пароль? <span class="js-popupOpen" data-popup="login">Войти<span></div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <section class="n-popup js-popup" id="login-2fa">
+      <div class="n-popup__inner"> 
+        <div class="n-popup__close js-popupClose"> </div>
+        <div class="n-popup__content">
+          <div class="n-popup__title">Авторизация</div>
+          <form class="n-popup__form">
+            <div class="n-popup__form-title">2FA authentification</div>
+            <input class="js-inputRequired n-popup__form-input" type="text" required>
+            <div class="n-popup__btn js-popupClose">Войти</div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <script src="./js/jquery.js"></script>
+    <script src="./js/jquery.maskedinput.min.js"></script>
+    <script src="./js/cookies.js"></script>
+    <script src="./js/slick.js"></script>
+    <script src="./js/countUp.js"></script>
+    <script src="./js/mainSlider.js"></script>
+    <script src="./js/updateGlasses.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/simpleBar.js"></script>
+    <script src="./js/select.js"></script>
+    <script src="./js/popup.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+    <script src="./js/body-wrapper.js"></script>
+    <script src="./js/swiper.js"></script>
+    <script src="./js/disabled-theme.js"></script>
+    <script src="./js/consulting.js"></script>
+    <div class="loader"><img src="./img/main/preloader.gif" alt="Идет загрузка"></div>
+  </body>
+</html>

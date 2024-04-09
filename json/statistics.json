@@ -1,0 +1,60 @@
+{
+	"Success": true,
+	"Result": {
+		"ResponseUserData": {
+			"Login": "CustomerUser",
+			"KYCStatus": true,
+			"TelegramStatus": true,
+			"EmailStatus": true
+		},
+		"ReviewsCount": {
+			"Likes": 2,
+			"Dislikes": 0
+		},
+		"SummaryVolumeOrders": {
+			"Sales": 0.0,
+			"Purchases": 5000.0,
+			"All": 5000.0
+		},
+		"OrderDetailsStatistic": {
+			"StatisticsLast30Day": {
+				"2023-03-05T00:04:05": 1,
+				"2023-03-04T00:04:05": 1,
+				"2023-03-03T00:07:05": 1,
+				"2023-03-03T00:06:05": 1,
+				"2023-03-02T00:05:05": 1,
+				"2023-03-01T00:07:05": 1,
+				"2023-02-26T00:06:05": 1
+			},
+			"LastSales": {
+				"2023-01-22T08:16:24.231805": {
+					"Amount": 5000.0,
+					"Name": "erchant_1erchant_1erchant_1erchant_1"
+				},
+				"2023-01-21T08:13:14.161627": {
+					"Amount": 5000.0,
+					"Name": "merchant_2"
+				},
+				"2023-01-21T08:13:14.161628": {
+					"Amount": 500000.0,
+					"Name": "arn"
+				}
+			},
+			"LastPurchases": {
+				"2023-01-22T08:16:24.231805": {
+					"Amount": 5000.0,
+					"Name": "ashant_1"
+				},
+				"2023-01-21T08:13:14.161629": {
+					"Amount": 5000.0,
+					"Name": "merch3ant_2"
+				},
+				"2023-01-21T08:13:14.161627": {
+					"Amount": 5010000.0,
+					"Name": "arn"
+				}
+			},
+			"OrderDetailsCount": 40
+		}
+	}
+}

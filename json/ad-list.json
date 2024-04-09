@@ -1,0 +1,39 @@
+{
+	"Success": true,
+	"Result": {
+		"Orders": [
+			{
+				"Id": 1,
+				"LowLimit": 2000.0,
+				"HighLimit": 1000000.0,
+				"ExchangeRate": 5000.0,
+				"Status": 1,
+				"Side": 1,
+				"PaymentMethods": [
+					{
+						"Id": 2,
+						"Name": "Альфа",
+						"Color": "#234232"
+					}
+				]
+			},
+			{
+				"Id": 2,
+				"LowLimit": 100.0,
+				"HighLimit": 50000.0,
+				"ExchangeRate": 2000.0,
+				"Status": 1,
+				"Side": 1,
+				"PaymentMethods": [
+					{
+						"Id": 2,
+						"Name": "Альфа",
+						"Color": "#234232"
+					}
+				]
+			}
+		],
+		"CurrentPage": 1,
+		"TotalPages": 1
+	}
+}
